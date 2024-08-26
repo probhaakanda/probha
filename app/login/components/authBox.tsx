@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { signIn, signOut, useSession } from "next-auth/react";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import ImageWithLoader from "./imageLoader";
+import ImageWithLoader from "@/app/components/imageLoader";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import { MaterialSymbol } from "material-symbols";
