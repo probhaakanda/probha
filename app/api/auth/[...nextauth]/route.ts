@@ -27,14 +27,6 @@ const authOptions = NextAuth({
         ? process.env.GOOGLE_CLIENT_SECRET
         : "",
     }),
-    TwitterProvider({
-      clientId: process.env.NEXT_PUBLIC_TWITTER_CLIENT_ID
-        ? process.env.NEXT_PUBLIC_TWITTER_CLIENT_ID
-        : "",
-      clientSecret: process.env.TWITTER_CLIENT_SECRET
-        ? process.env.TWITTER_CLIENT_SECRET
-        : "",
-    })
   ],
   // Other NextAuth options can be added here
 });
