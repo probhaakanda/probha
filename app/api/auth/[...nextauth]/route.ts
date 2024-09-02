@@ -6,6 +6,7 @@ import GoogleProvider from "next-auth/providers/google";
 import TwitterProvider from "next-auth/providers/twitter";
 
 const authOptions = NextAuth({
+  secret:process.env.NEXT_PUBLIC_SECRET,
   theme:{
     colorScheme:'auto'
   },
